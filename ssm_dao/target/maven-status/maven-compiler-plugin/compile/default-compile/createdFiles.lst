@@ -1,0 +1,8 @@
+com\hbeu\ssm\dao\IMemberDao.class
+com\hbeu\ssm\dao\IPermissionDao.class
+com\hbeu\ssm\dao\INoticeDao.class
+com\hbeu\ssm\dao\IProductDao.class
+com\hbeu\ssm\dao\IRoleDao.class
+com\hbeu\ssm\dao\ICategoryDao.class
+com\hbeu\ssm\dao\IUserDao.class
+com\hbeu\ssm\dao\IOrdersDao.class

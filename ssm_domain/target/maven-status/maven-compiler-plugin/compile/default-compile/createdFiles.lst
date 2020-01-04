@@ -1,0 +1,9 @@
+com\hbeu\ssm\domain\Member.class
+com\hbeu\ssm\domain\Permission.class
+com\hbeu\ssm\domain\Notice.class
+com\hbeu\ssm\domain\Orders.class
+com\alipay\config\AlipayConfig.class
+com\hbeu\ssm\domain\Role.class
+com\hbeu\ssm\domain\Category.class
+com\hbeu\ssm\domain\UserInfo.class
+com\hbeu\ssm\domain\Product.class

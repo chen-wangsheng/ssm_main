@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm_web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40dbb328-b63d-45d8-9f3e-cb9195ff553c" name="Default Changelist" comment="a project about shopping-mall">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/ICategoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IMemberDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/INoticeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IOrdersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IPermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/src/main/java/com/alipay/config/AlipayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Notice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/ICategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/IMemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/INoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/IOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/NoticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_utils/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_utils/src/main/java/com/hbeu/ssm/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_utils/src/main/java/com/hbeu/ssm/utils/EncodingUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_utils/src/main/java/com/hbeu/ssm/utils/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/NoticeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/find.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/more.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/orders.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/toPay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/alipay.trade.close.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/alipay.trade.fastpay.refund.query.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/alipay.trade.page.pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/alipay.trade.query.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/alipay.trade.refund.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/css/index_cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/css/orderconfirm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/css/style1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/css/tasp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/failed.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/adm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/app_qrcode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/avtar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/banner_info.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/head_img1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/head_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/head_img2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/head_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/head_img3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/head_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/head_img4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/head_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/head_img5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/head_img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/main_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/main_img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/main_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/main_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/main_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/main_img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/main_img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/main_img7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/main_img8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/main_img9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/slider_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/slider_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/slider_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/slider_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/slider_img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/user_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/user_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/user_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/user_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/user_img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/waterfall_headImg1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/waterfall_headImg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/waterfall_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/waterfall_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/waterfall_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/waterfall_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/waterfall_img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/error_403.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/error_404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/icon_app.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/icon_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/icon_car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/icon_search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/icon_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/into.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/pass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/qq32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/images/sina32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/js/jquery.magnific-popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/notify_url.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/paySuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_web/src/main/webapp/return_url.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/controller/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_dao/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_service/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_domain/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_utils/target/" />
+    <ignored path="$PROJECT_DIR$/ssm_web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>findAllByCategoryId</find>
+      <find>slider-wrapper</find>
+      <find>reload</find>
+      <find>categoryId</find>
+      <find>cont__title1</find>
+      <find>order-table</find>
+      <find>products</find>
+      <find>jsp</find>
+      <find>jst</find>
+      <find>ufeff</find>
+      <find>product</find>
+      <find>buy</find>
+      <find>pop-back</find>
+      <find>J_MakePoint</find>
+      <find>main-cont__title</find>
+      <find>submit</find>
+      <find>regForm</find>
+      <find>pass</find>
+      <find>s-title</find>
+      <find>itempic</find>
+      <find>70</find>
+      <find>50</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="chen-wangsheng" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/main/header.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/main/main.jsp" />
+        <option value="$PROJECT_DIR$/ssm_utils/src/main/java/com/hbeu/ssm/utils/BCryptPasswordEncoderUtils.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/UserService.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/ssm_utils/src/main/java/com/hbeu/ssm/utils/PasswordUtil.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/IMemberService.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/MemberService.java" />
+        <option value="$PROJECT_DIR$/ssm_domain/src/main/java/com/alipay/config/AConfig.java" />
+        <option value="$PROJECT_DIR$/ssm_domain/src/main/java/com/alipay/config/AlipayConfig.java" />
+        <option value="$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Orders.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/paySuccess.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/css/tasp.css" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/IProductService.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/ProductService.java" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IProductDao.java" />
+        <option value="$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Notice.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/INoticeService.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/NoticeService.java" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/INoticeDao.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/NoticeController.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/ssm_utils/src/main/java/com/hbeu/ssm/utils/EncodingUtil.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/cart.jsp" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IOrdersDao.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/IOrderService.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/ICategoryService.java" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/CategoryService.java" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/ICategoryDao.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/orders.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/return_url.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/css/orderconfirm.css" />
+        <option value="$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/OrderService.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/header.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/more.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/main.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/footer.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/find.jsp" />
+        <option value="$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Member.java" />
+        <option value="$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IMemberDao.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/MemberController.java" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/webapp/register.jsp" />
+        <option value="$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/IndexController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/develop/my_maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\develop\my_maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_main" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_main" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="52" />
+    <option name="y" value="4" />
+    <option name="width" value="1331" />
+    <option name="height" value="690" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ssm_main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm_main" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm_main" type="462c0819:PsiDirectoryNode" />
+              <item name="ssm_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578111383274" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkspace\ssm_main\ssm_web\src\main\webapp\images" />
+      <recent name="D:\ideaWorkspace\ssm_main\ssm_web\src\main\webapp\images\cont" />
+      <recent name="D:\ideaWorkspace\ssm_main\ssm_web\src\main\webapp\WEB-INF\main" />
+      <recent name="D:\ideaWorkspace\ssm_main\ssm_web\src\main\webapp\css" />
+      <recent name="D:\ideaWorkspace\ssm_main\ssm_web\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hbeu.ssm.utils" />
+      <recent name="com.hbeu.ssm.domain" />
+      <recent name="com.hbeu.ssm.controller" />
+      <recent name="com.hbeu.ssm.dao" />
+      <recent name="com.hbeu.ssm.service.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ideaWorkspace\ssm_main\ssm_web\src\main\webapp" />
+      <recent name="D:\ideaWorkspace\ssm_main\ssm_web\src\main\webapp\WEB-INF\main" />
+      <recent name="D:\ideaWorkspace\ssm_main\ssm_web\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat_main">
+    <configuration name="AConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alipay.config.AConfig" />
+      <module name="ssm_domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alipay.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlipayConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alipay.config.AlipayConfig" />
+      <module name="ssm_domain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alipay.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hbeu.ssm.utils.PasswordUtil" />
+      <module name="ssm_utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hbeu.ssm.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ssm_main" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/ssm_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="tomcat_main" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ssm_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_web" />
+          </settings>
+        </artifact>
+        <file path="D:/upload">
+          <settings>
+            <option name="CONTEXT_PATH" value="/img1" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm_main" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="65437" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PasswordUtil" />
+      <item itemvalue="Application.AlipayConfig" />
+      <item itemvalue="Application.AConfig" />
+      <item itemvalue="Maven.ssm_main" />
+      <item itemvalue="Tomcat Server.tomcat_main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AConfig" />
+        <item itemvalue="Application.AlipayConfig" />
+        <item itemvalue="Application.PasswordUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40dbb328-b63d-45d8-9f3e-cb9195ff553c" name="Default Changelist" comment="" />
+      <created>1573697061468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573697061468</updated>
+      <workItem from="1573697064538" duration="2995000" />
+      <workItem from="1573717199295" duration="3101000" />
+      <workItem from="1573720398209" duration="306000" />
+      <workItem from="1573720754805" duration="4434000" />
+      <workItem from="1573727002770" duration="6555000" />
+      <workItem from="1573737726540" duration="3901000" />
+      <workItem from="1573778927191" duration="32768000" />
+      <workItem from="1573870240186" duration="8521000" />
+      <workItem from="1573974420277" duration="297000" />
+      <workItem from="1573985121162" duration="12417000" />
+      <workItem from="1574055402182" duration="869000" />
+      <workItem from="1574246110014" duration="8960000" />
+      <workItem from="1574255140743" duration="455000" />
+      <workItem from="1574256812745" duration="2408000" />
+      <workItem from="1574259291457" duration="1404000" />
+      <workItem from="1574296386634" duration="5386000" />
+      <workItem from="1574307990706" duration="1446000" />
+      <workItem from="1574320110427" duration="23281000" />
+      <workItem from="1574346066334" duration="5184000" />
+      <workItem from="1574393063876" duration="1022000" />
+      <workItem from="1574394472827" duration="1071000" />
+      <workItem from="1574408380003" duration="19949000" />
+      <workItem from="1574475846011" duration="14808000" />
+      <workItem from="1574493453575" duration="19250000" />
+      <workItem from="1574560247603" duration="46000" />
+      <workItem from="1574647494947" duration="4051000" />
+      <workItem from="1574651604302" duration="19000" />
+      <workItem from="1574857899937" duration="359000" />
+      <workItem from="1574912871987" duration="15000" />
+      <workItem from="1574923108273" duration="8890000" />
+      <workItem from="1574933115618" duration="12000" />
+      <workItem from="1575010969182" duration="2955000" />
+      <workItem from="1575162213884" duration="1212000" />
+      <workItem from="1575201906930" duration="115000" />
+      <workItem from="1575286185377" duration="6249000" />
+      <workItem from="1575359859769" duration="34000" />
+      <workItem from="1575636479086" duration="8640000" />
+      <workItem from="1575852835934" duration="44000" />
+      <workItem from="1576925070149" duration="884000" />
+      <workItem from="1576937593962" duration="4067000" />
+      <workItem from="1576981222726" duration="6049000" />
+      <workItem from="1577276912406" duration="2406000" />
+      <workItem from="1577351748477" duration="3000" />
+      <workItem from="1577351815198" duration="2720000" />
+      <workItem from="1577358838914" duration="745000" />
+      <workItem from="1577404744691" duration="1346000" />
+      <workItem from="1577408279558" duration="1148000" />
+      <workItem from="1577409637341" duration="5105000" />
+      <workItem from="1577415069279" duration="1396000" />
+      <workItem from="1577438064841" duration="1430000" />
+      <workItem from="1577536155861" duration="58000" />
+      <workItem from="1578100089080" duration="1018000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="241804000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="52" y="4" width="1331" height="690" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49811321" visible="true" weight="0.22974037" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.5018868" side_tool="true" weight="0.21009772" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43527204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24377224" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3296501" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32780847" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32780847" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.36278194" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3296501" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.28402832" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20928338" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14602588" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30868763" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32969034" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.16211294" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.23778501" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="a project about shopping-mall" />
+    <option name="LAST_COMMIT_MESSAGE" value="a project about shopping-mall" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ssm_utils/src/main/java/com/hbeu/ssm/utils/EncodingUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IOrdersDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="53" column="50" selection-start-line="53" selection-start-column="50" selection-end-line="53" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="55" column="89" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/alipay/config/AlipayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="32" column="68" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1936#1937#0" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+            <element signature="e#3352#3353#0" expanded="true" />
+            <element signature="e#3383#3384#0" expanded="true" />
+            <element signature="e#3433#3434#0" expanded="true" />
+            <element signature="e#3473#3474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/images/cont/slider_img1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/ICategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/ICategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="55" column="31" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="55" column="56" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1828#1829#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
+            <element signature="e#1916#1917#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/css/tasp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="1" column="59" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/toPay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6371" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/notify_url.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/alipay.trade.close.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-563" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/paySuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/alipay.trade.page.pay.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="56" lean-forward="true" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/return_url.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/css/orderconfirm.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="414" column="21" lean-forward="true" selection-start-line="414" selection-start-column="21" selection-end-line="414" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/IOrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="44" column="78" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="233" column="42" selection-start-line="233" selection-start-column="42" selection-end-line="233" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/NoticeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+          <folding>
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1192#1193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1361">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/Java/jdk1.8/src.zip!/java/security/MessageDigest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-991">
+          <caret line="162" column="61" lean-forward="true" selection-start-line="162" selection-start-column="61" selection-end-line="162" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/codec/Hex.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/develop/Java/jdk1.8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="957" column="57" selection-start-line="957" selection-start-column="51" selection-end-line="957" selection-end-column="57" />
+          <folding>
+            <element signature="e#36393#36394#0" expanded="true" />
+            <element signature="e#36459#36460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_utils/src/main/java/com/hbeu/ssm/utils/PasswordUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="16" column="67" lean-forward="true" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-686">
+          <caret line="284" column="35" lean-forward="true" selection-start-line="284" selection-start-column="35" selection-end-line="284" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/orders.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-800">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/more.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/WEB-INF/main/find.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="9" column="79" lean-forward="true" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_dao/src/main/java/com/hbeu/ssm/dao/IMemberDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/impl/MemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_service/src/main/java/com/hbeu/ssm/service/IMemberService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_domain/src/main/java/com/hbeu/ssm/domain/Member.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="76" column="32" lean-forward="true" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2197#2198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/webapp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_web/src/main/java/com/hbeu/ssm/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ssm_web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|ssm_web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4019608" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
